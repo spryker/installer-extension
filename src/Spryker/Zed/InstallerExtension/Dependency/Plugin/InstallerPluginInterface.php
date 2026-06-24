@@ -25,5 +25,6 @@ interface InstallerPluginInterface
      *
      * @return void
      */
+    // phpcs:ignore SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint
     public function install();
 }
